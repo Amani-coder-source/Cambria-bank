@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambria Capital Bank - Login</title>
+
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+
+<body>
+
+    <div class="login-container">
+
+        <div class="bank-logo">
+            <h1>Cambria Capital Bank</h1>
+            <p>Secure Banking</p>
+        </div>
+
+        <div class="login-box">
+
+            <h2>Welcome Back</h2>
+            <p class="subtitle">Login to your account</p>
+
+            <form id="loginForm">
+
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="Enter your email"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Password</label>
+
+                    <input
+                        type="password"
+                        id="password"
+                        placeholder="Enter your password"
+                        required
+                    >
+                </div>
+
+                <button type="submit" class="login-button">
+                    Login
+                </button>
+
+            </form>
+
+            <p id="message"></p>
+
+            <p class="register-link">
+                Don't have an account?
+                <a href="/register-page">Create an account</a>
+            </p>
+
+        </div>
+
+    </div>
+
+    <script src="/static/js/app.js"></script>
+
+</body>
+</html>
